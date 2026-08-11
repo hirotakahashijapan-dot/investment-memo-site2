@@ -35,3 +35,25 @@ footer {
   padding: 16px;
   color: #666;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #e5e7eb;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
