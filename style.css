@@ -7,9 +7,9 @@ body {
 }
 
 header {
-  background-color: #1f2937;
+  background-color: #111827;
   color: white;
-  padding: 24px;
+  padding: 32px 24px;
   text-align: center;
 }
 
@@ -21,13 +21,18 @@ main {
 
 section {
   background-color: white;
-  margin-bottom: 20px;
-  padding: 20px;
-  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 h1, h2 {
   margin-top: 0;
+}
+h2 {
+  border-left: 4px solid #1f2937;
+  padding-left: 10px;
 }
 
 footer {
@@ -52,6 +57,7 @@ th, td {
 th {
   background-color: #e5e7eb;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 tr:nth-child(even) {
