@@ -79,4 +79,31 @@ tr:nth-child(even) {
     overflow-x: auto;
     white-space: nowrap;
   }
+   .analysis-template {
+    grid-template-columns: 1fr;
+  } 
+}
+.analysis-template {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.template-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9fafb;
+}
+
+.template-item h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.template-item p {
+  margin: 0;
+  font-size: 14px;
 }
