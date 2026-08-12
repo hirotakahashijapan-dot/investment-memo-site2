@@ -86,3 +86,52 @@ https://hirotakahashijapan-dot.github.io/investment-memo-site2/
 6. レビュー修正を行う
 7. mainブランチにマージする
 8. 不具合修正を行う
+## 開発ルール
+
+このリポジトリでは、GitHubの基本操作と開発プロセスを練習するため、以下のルールで作業します。
+
+### ブランチ命名ルール
+
+作業内容に応じて、以下の形式でブランチを作成します。
+
+- `feature/...`：新機能を追加する場合
+- `fix/...`：不具合修正や軽微な修正を行う場合
+- `docs/...`：READMEなどドキュメントのみを修正する場合
+
+例：
+
+- `feature/add-stock-table`
+- `feature/add-analysis-template`
+- `fix/update-readme-future-tasks`
+- `docs/add-development-rules`
+
+### コミットメッセージルール
+
+コミットメッセージは、変更内容が一目で分かるようにします。
+
+良い例：
+
+- `Add stock watchlist table`
+- `Improve page design`
+- `Update README for stock table feature`
+- `Add daily analysis template section`
+
+避けたい例：
+
+- `修正`
+- `更新`
+- `test`
+- `いろいろ変更`
+
+### Pull Request作成ルール
+
+Pull Requestを作成するときは、以下の3項目を必ず書きます。
+
+```md
+## 変更内容
+
+## 変更理由
+
+## 確認したこと
+
+## 学習ポイント
