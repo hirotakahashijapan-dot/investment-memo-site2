@@ -40,7 +40,7 @@ https://hirotakahashijapan-dot.github.io/investment-memo-site2/
 - 決算予定を表形式で表示
 - 売買候補を表示
 - 売買判断メモを表形式で表示
-- リスク要因を表示
+- リスク要因を分類テーブルで表示
 - 今日のToDoを表示
 
 ## 今後追加したい機能
@@ -49,6 +49,12 @@ https://hirotakahashijapan-dot.github.io/investment-memo-site2/
 
 
 ## 今回追加した機能
+
+### リスク分類テーブル
+
+- リスク要因セクションを箇条書きから表形式に変更
+- リスク分類、内容、影響を受ける銘柄、確認指標を表示
+- マクロ、テーマ、市況、個別企業の観点でリスクを整理
 
 ### 注目銘柄テーブル
 
