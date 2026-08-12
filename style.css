@@ -52,6 +52,7 @@ th, td {
   padding: 10px;
   text-align: left;
   vertical-align: top;
+  font-size: 14px;
 }
 
 th {
@@ -62,4 +63,20 @@ th {
 
 tr:nth-child(even) {
   background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 8px;
+  }
+
+  section {
+    padding: 16px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
