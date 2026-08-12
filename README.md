@@ -4,6 +4,12 @@
 
 日々の市場状況、注目銘柄、売買候補、リスク要因、ToDoを整理するためのシンプルなWebサイトです。
 
+## 公開URL
+
+GitHub Pagesで公開したサイトはこちらです。
+
+https://hirotakahashijapan-dot.github.io/investment-memo-site2/
+
 ## 目的
 
 このリポジトリは、GitHubの基本操作を練習するために作成しました。
