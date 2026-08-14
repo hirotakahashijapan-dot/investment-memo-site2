@@ -82,6 +82,10 @@ tr:nth-child(even) {
    .analysis-template {
     grid-template-columns: 1fr;
   } 
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
 }
 .analysis-template {
   display: grid;
@@ -106,4 +110,23 @@ tr:nth-child(even) {
 .template-item p {
   margin: 0;
   font-size: 14px;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 4px 6px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background-color: #374151;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  background-color: #4b5563;
 }
