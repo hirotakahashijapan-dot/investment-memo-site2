@@ -55,6 +55,19 @@ https://hirotakahashijapan-dot.github.io/investment-memo-site2/
 | `trade-notes.html` | 売買判断メモページ |
 | `risks.html` | リスク要因ページ |
 
+### サイト構成図
+
+```text
+investment-memo-site2/
+├── index.html
+│   ├── stocks.html
+│   ├── earnings.html
+│   ├── trade-notes.html
+│   └── risks.html
+├── style.css
+└── README.md
+```
+
 ## 今後追加したい機能
 
 - デザインを改善する
