@@ -74,6 +74,10 @@ investment-memo-site2/
 
 - デザインを改善する
 
+## 関連ドキュメント
+
+- [Codexプロンプトテンプレート集](docs/codex-prompts.md)
+
 
 ## これまでに追加した機能・変更履歴
 
